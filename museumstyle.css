@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Rouge+Script|Oswald:400,300|Open+Sans);
+
+/* Variables */
+:root {
+  --top-offset: 5rem;
+  --bp: 35rem;
+}
+
+/* Full Wrap */
+.full-wrap {
+  width: 100%;
+  height: 100vh; /* Set height to 100% of viewport height */
+  overflow: hidden;
+  position: relative;
+  background: url(http://webdesignledger.com/wp-content/uploads/2010/01/seamless_patterns_12.jpg) repeat;
+  box-shadow: inset 0 0 9px rgba(0,0,0,0.8);
+}
+
+/* Menu Wrap */
+.menuwrap {
+  width: 100%;
+  height: 100%;
+}
+
+/* Menu */
+.menu {
+  width: 350px;
+  padding: 30px;
+  position: relative;
+}
+
+/* Menu Set */
+.menu .set {
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  min-height: 45px;
+  padding: 25px;
+  margin: 15px;
+  background: #fff;
+  border-left: 8px solid #FBA3A3;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  transition: all 0.5s ease;
+}
+
+/* Menu Set Hover */
+.menu .set:hover {
+  background-color: rgb(195, 235, 237);
+  border-left: 8px solid #C95758;
+  transform: scale(1.1,1.1);
+}
+
+div.head {
+  position: absolute;
+  top: 10px;
+  font-family: 'Rouge Script';
+  font-size: 50px;
+  color: #FBA3A3;
+}
+div.desc {
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Oswald';
+  font-size: 16px;
+  color: #555;
+}
+
+.content span:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #C95758;
+}
+
+.content span {
+  bottom: 10px;
+  color: #f90000;
+  text-align: center;
+  font-size: 12px; 
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.content span i {
+  font-size: 16px;
+  font-family: 'Times New Roman';
+  padding: 5px;
+  padding-left: 0;
+}
+
+/* Head */
+.menu .set .head {
+  position: absolute;
+  top: 10px;
+  font-family: 'Rouge Script', cursive;
+  font-size: 40px;
+  color: #FBA3A3;
+}
+
+/* Description */
+.menu .set .desc {
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Icon */
+.menu .set .ico {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  font-size: 40px;
+  color: #C95758;
+  opacity: 1;
+  transform: rotate(-20deg) scale(1,1);
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+/* Icon Hover */
+.menu .set:hover .ico {
+  top: 10px;
+  right: -20px;
+  font-size: 50px;
+  opacity: 0.3;
+  transform: rotate(-10deg);
+}
+
+/* Content */
+.content {
+  position: absolute;
+  right: -100%;
+  top: 0;
+  bottom: 0;
+  margin: 25px 0;
+  width: 55%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  border-left: 8px solid #FBA3A3;
+  transition: all 0.5s ease;
+}
+
+/* Page */
+.page {
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-right: 30px;
+  background: #fff;
+  position: absolute;
+  z-index: 0;
+}
+
+/* Show Content */
+div.show {
+  right: 0;
+}
+
+div.show .pagevis {
+  display: block;
+  z-index: 10;
+}
+
+/* Info */
+div.info {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  opacity: 0.3;
+}
+
+/* Credit */
+.credit {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 20%;
+  opacity: 0.3;
+}
+
+.credit:hover {
+  opacity: 0.8;
+}
+
+.credit a {
+  color: #fff;
+  text-decoration: none;
+}

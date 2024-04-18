@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ 
+header {
+ 	background: #000;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	
+	width: 100%;
+ 	height: 100vh;
+ 	
+	overflow: hidden;
+     
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+	
+	&:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(#000, 0.7);
+}
+}
+
+h1 {
+	color: #fff;
+	font-size: 3em;
+	padding: 10;
+}
+
+p {
+	color: #fff;
+}
+
+section {
+	width: 100%;
+	height: 100vh;	
+	background: url(), #ddd;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	height: 100vh;	
+	background: url(), #47a;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.btnf {
+	right: 25px;
+	bottom: 25px;
+	position: fixed;
+	z-index: 90;
+}
+
+.nav-wrapper {
+	width: 100%;
+	height: 60px;
+	background: rgba(#000,.3) ;
+	position: fixed;
+	
+	color: #fff;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.izq {
+	margin: 10px;
+	padding: 10px;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+	
+	&:hover {
+		border-bottom: 1px solid rgba(#8A0808, .8);
+	}
+}
+
+.der {
+	margin: 10px;
+	padding: 10px;
+}
+
+.bannerp {
+	background: url(assets/cats.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: #fff;
+	
+	width: 100%;
+	height: 400px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	color: #000000;
+	border-bottom: 1px solid rgba(#fff, .5);
+	padding: 20px;
+}
+
+p.parr {
+	padding: 25px;
+	margin-top: 0;
+	color: #888;
+}
+
+#randomButton {
+    background-color: #ff5722; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 15px 30px; /* Add padding */
+    font-size: 18px; /* Increase font size */
+    cursor: pointer; /* Add cursor pointer */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: background-color 0.3s, transform 0.2s; /* Add transition */
+}
+
+#randomButton:hover {
+    background-color: #ff7043; /* Darker orange on hover */
+    transform: translateY(-2px); /* Move button up slightly on hover */
+}
+
+#randomButton:active {
+    transform: translateY(1px); /* Move button down slightly when clicked */
+    box-shadow: none; /* Remove shadow when clicked */
+}
