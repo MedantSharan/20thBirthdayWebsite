@@ -148,12 +148,52 @@ const sunlinks =
 
             else if (emojiContent === '⛰️')
             {
-                tooltipText = 'Tara Pahad'
+                tooltipText = 'Tara Pahad';
             }
 
-            else if (emojiSymbol === '🌲' || emojiSymbol === '🌳')
+            else if (emojiContent === '🌲' || emojiContent === '🌳')
             {
-                tooltipText = 'Uchlani ka ped'
+                tooltipText = 'Uchlani ka ped';
+            }
+
+            else if (emojiContent === '🏛️')
+            {
+                tooltipText = 'Time to study?';
+            }
+
+            else if (emojiContent === '🐘')
+            {
+                tooltipText = 'Hathi mera sathi';
+            }
+
+            else if (emojiContent === '👬')
+            {
+                tooltipText = 'Love is in the air';
+            }
+
+            else if (emojiContent === '🚴')
+            {
+                tooltipText = 'medant';
+            }
+
+            else if (emojiContent === '☁️')
+            {
+                tooltipText = 'Badal';
+            }
+
+            else if (emojiContent === '🏪')
+            {
+                tooltipText = 'Anjalis fave shop';
+            }
+
+            else if (emojiContent === '🐕')
+            {
+                tooltipText = 'Doggo';
+            }
+
+            else if (emojiContent === '🏫')
+            {
+                tooltipText = 'Anjalis school';
             }
 
             else
@@ -257,6 +297,26 @@ const sunlinks =
     else if (emojiSymbol === '🛕')
     {
         window.location.href = mandirlinks[Math.floor(Math.random() * mandirlinks.length)];
+    }
+
+    else if (emojiSymbol === '🐈')
+    {
+        window.location.href = 'https://source.unsplash.com/random/1920x1080/?cats';
+    }
+
+    else if (emojiSymbol === '🏪')
+    {
+        window.location.href = 'https://www.amazon.in/';
+    }
+
+    else if (emojiSymbol === '🐕')
+    {
+        window.location.href = 'https://source.unsplash.com/random/1920x1080/?dogs';
+    }
+
+    else if (emojiSymbol === '🏫')
+    {
+        window.location.href = 'https://www.chmcollege.in/';
     }
 
     else 
