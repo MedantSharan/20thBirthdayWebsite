@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
 'https://www.youtube.com/watch?v=89lgb7dmXps',
 'https://www.youtube.com/watch?v=VR-ak1-RURU',
 'https://en.wikipedia.org/wiki/List_of_individual_dogs',
-'https://29a.ch/sandbox/2011/neonflames/#',
 'http://weavesilk.com/',
 'https://eyebleach.me/',
 'https://www.incredibox.com/demo/',
