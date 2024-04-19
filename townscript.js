@@ -169,7 +169,7 @@ const sunlinks =
 
             else if (emojiContent === '⛰️')
             {
-                tooltipText = 'Tara Pahad';
+                tooltipText = 'Medanjali Pahad';
             }
 
             else if (emojiContent === '🌲' || emojiContent === '🌳')
